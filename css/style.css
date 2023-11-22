@@ -28,4 +28,19 @@ dt {
 dd {
     margin: 0;
 }
+/*bonus*/
+input {
+    border: none;
+    border-bottom: 1px solid #333;
+    margin-bottom: 10px;
+    outline: none;
+  }
+input:focus {
+    border-color: #007BFF;
+}
+
+button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
 

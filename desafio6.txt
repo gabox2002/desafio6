@@ -31,7 +31,7 @@ Respetar el uso de minúsculas y mayúsculas de los nombres y apellidos (el text
 Estilizar libremente las listas con CSS, para que su diseño sea más interesante visualmente.
 
 
-3: Leer con JS, ni bien se cargue la página, los datos definidos en el HTML e informar en la consola los nombres completos de cada integrante con el siguiente formato:
+Paso 3: Leer con JS, ni bien se cargue la página, los datos definidos en el HTML e informar en la consola los nombres completos de cada integrante con el siguiente formato:
 ```
 -----
 Integrante 1: "Luis RODRÍGUEZ SÁNCHEZ"
@@ -50,7 +50,7 @@ Integrante 2: "Ana Laura GARCÍA "
 -----
 ```
 
-4: Si los nombres cargados en el HTML coinciden en algún caso (Ej: "Ana Laura García" y "Laura Verónica Gutiérrez Méndez" comparten un nombre, sin importar que sean en el 1er o 2do nombre) realizar las siguientes acciones:
+Paso 4: Si los nombres (Primer y/o Segundo Nombre)cargados en el HTML coinciden en algún caso (Ej: "Ana Laura García" y "Laura Verónica Gutiérrez Méndez" comparten un nombre, sin importar que sean en el 1er o 2do nombre) realizar las siguientes acciones:
 - Informar en la consola que hubo coincidencias.
 - Informar en un prompt que hubo coincidencias y solicitar en ese mismo prompt que se ingrese un color para destacar los nombres. Guardar el texto ingresado por el usuario ("red", "#c4203f", etc), ya que se precisará en el siguiente punto.
 - Utilizar el valor ingresado en el paso anterior para, con JS, agregarle estilos en línea a los nombres coincidentes, de tal manera que se destaquen en color los items de listas cuyos nombres coincidan. Por ej, en el navegador se mostraría así

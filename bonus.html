@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Formulario de Integrantes</title>
+</head>
+<body>
+    <!-- Formulario para el primer integrante -->
+    <form id="formIntegrante1">
+        <h2>Primer integrante</h2>
+        <label for="primerNombre1">Primer nombre</label>
+        <input type="text" id="primerNombre1">
+        <label for="segundoNombre1">Segundo nombre</label>
+        <input type="text" id="segundoNombre1">
+        <label for="primerApellido1">Primer apellido</label>
+        <input type="text" id="primerApellido1">
+        <label for="segundoApellido1">Segundo apellido</label>
+        <input type="text" id="segundoApellido1">
+        <button type="button" onclick="completarIntegrante(1)">Completar</button>
+    </form>
+    <!-- Formulario para el segundo integrante -->
+    <form id="formIntegrante2">
+        <h2>Segundo integrante</h2>
+        <label for="primerNombre2">Primer nombre</label>
+        <input type="text" id="primerNombre2">
+        <label for="segundoNombre2">Segundo nombre</label>
+        <input type="text" id="segundoNombre2">
+        <label for="primerApellido2">Primer apellido</label>
+        <input type="text" id="primerApellido2">
+        <label for="segundoApellido2">Segundo apellido</label>
+        <input type="text" id="segundoApellido2">
+        <button type="button" onclick="completarIntegrante(2)">Completar</button>
+    </form>
+  <script src="./js/bonus.js"></script>
+</body>
+</html>
